@@ -33,12 +33,12 @@ router.get('/:id', (req, res) => {
         model: Tag, 
         through: ProductTag,         
         as: 'product_tags',
-      }
-    ]
+      },
+    ],
   })
   .then((product) => {
     if (product === null) {
-      res.status(404).json({ message: 'No product with that ID.'})
+      res.status(404).json({ message: 'No product with that ID.' })
     }
     res.status(200).json(product);
   })
