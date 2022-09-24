@@ -25,6 +25,9 @@
 
   This project is a basic version of a eComerce Website's back-end code using sequelize and express.js. The motivation for this project was to learn about using sequelize and become more familiar with how real-world websites work. I built this project with some starter code and lots of reading the docs. I used insomnia to check my code. This project doesn't really solve any problem as it is a pretty basic version of the real thing, but it was great practice. I learned the basics of how to connect inputs from a user to be processed in the back-end and stored in a database using sequalize.
 
+  A video demonstration of the project can be found here: 
+  https://drive.google.com/file/d/1XFk-bn_RG6rlTSYtKyaUSszib3cGBtpX/view
+
   ## Installation
 
   To install this program clone the repo on your local machine and run 'npm i' to install the dependencies. Next, create the database with 'mysql -p' then enter your MySQL password. You may need to login in to Sequel first on a browser. Enter 'source db/schema.sql' to create the database followed by 'quit'.
